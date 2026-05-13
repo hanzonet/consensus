@@ -1,6 +1,6 @@
 [package]
 name = "hanzo-consensus"
-version = "1.1.21"
+version = "1.1.22"
 edition = "2021"
 description = "Hanzo Network — Quasar BFT consensus engine for L2 (wraps lux-consensus)"
 license = "MIT"
@@ -42,9 +42,7 @@ features = ["derive"]
 version = "1.36"
 features = ["rt", "rt-multi-thread", "macros", "fs", "io-util", "net", "sync", "time"]
 
-[dependencies.hanzo-pqc]
-version = "1.1.21"
-package = "hanzonet-pqc"
+hanzo-pqc = "1.1.22"
 [dev-dependencies]
 [dev-dependencies.tempfile]
 version = "3.19"
