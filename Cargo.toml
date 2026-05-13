@@ -1,8 +1,8 @@
 [package]
 name = "hanzo-consensus"
-version = "1.1.22"
+version = "1.1.23"
 edition = "2021"
-description = "Hanzo Network — Quasar BFT consensus engine for L2 (wraps lux-consensus)"
+description = "Hanzo Network — Quasar post-quantum probabilistic consensus engine (wraps lux-consensus; Wave/FPC/Photon/Focus + Quasar P3Q finality)"
 license = "MIT"
 repository = "https://github.com/hanzonet/consensus"
 
